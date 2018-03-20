@@ -1,50 +1,88 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+<!-- ini aku ganti karena ternyata dia bukan slider -->
+<div class="parallax-container">
+    <div class="parallax"><img src="{{ asset('img/bg.jpeg') }}"></div>
+</div>
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            INI ISI
+  <div class="text-center" style="padding: 5%">
+     <h3>VELIT ID IMPERDIET</h3>
+     <p>Ini gak tau tulisannya apaan yaa biarin aja asal ada tulisannya ya gak sih</p> 
+  </div>
+  <div class="row">
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
         </div>
+      </div>
     </div>
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+  </div>     
+  <div class="row">
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s3 m3">
+      <div class="card white hoverable" style="padding: 10px">
+        <div class="card-content white-text text-center">
+          <span><i class="medium material-icons black">album</i></span>
+          <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
+          <p style="color: black; font-size: 12px;">Bawahnya juga gak tau tulisan apa ini yaaa.. biarin asal aja ya yg penting ada contohnya aja okey..</p>
+        </div>
+      </div>
+    </div>
+  </div>    
 </div>
 @endsection
 @section('script')
 <script type="text/javascript">
-     $(document).ready(function(){
-      $('.slider').slider();
+      $(document).ready(function(){
+      $('.parallax').parallax();
     });
 </script>
 @endsection
