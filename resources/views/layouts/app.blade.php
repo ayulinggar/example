@@ -26,8 +26,8 @@
       <li class="divider"></li>
       <li><a href="#!">three</a></li>
     </ul>    
-  <nav>
-    <div class="nav-wrapper">
+  <nav class="navbarku"><!-- tambahin class -->
+    <div class="nav-wrapper container"> <!-- tambahin class container gak mepet ke sisi --> 
       <a href="#" class="brand-logo">BASEND</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">HOME</a></li>
