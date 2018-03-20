@@ -45,5 +45,6 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <!-- manggil materialize.min.js di layout -->
     <script src="{{ asset('js/materialize.min.js') }}"></script>
+        @yield('script')
 </body>
 </html>
