@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- manggil materialize.min.css di layout -->
+    <link href="{{ asset('css/materialize.min.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -76,5 +78,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <!-- manggil materialize.min.js di layout -->
+    <script src="{{ asset('js/materialize.min.js') }}"></script>
 </body>
 </html>
