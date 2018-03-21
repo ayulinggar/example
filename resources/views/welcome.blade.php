@@ -4,6 +4,11 @@
 <!-- ini aku ganti karena ternyata dia bukan slider -->
 <div class="parallax-container">
     <div class="parallax"><img src="{{ asset('img/bg.jpeg') }}"></div>
+    <div class="text-center" style="padding: 10%">
+      <h3 style="color: pink;">AYU LINGGAR SARI & M. FARID YAHYA</h3>
+      <p style="color: white; font-size: 28px;">Bismillah, kami mengundang untuk hadir di pernikahan kami. Mohon doa & restunya</p>
+      <a class="waves-effect waves-light btn"><i class="material-icons right">check</i>Attend</a>
+    </div>
 </div>
 <div class="container">
   <div class="text-center" style="padding: 5%">
