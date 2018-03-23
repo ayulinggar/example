@@ -18,7 +18,7 @@
   <div class="row">
     <div class="col s3 m3">
         <div class="card-image">
-      <div class="card white hoverable" style="padding: 10px; background-image: url('img/bg.jpeg'); background-size: 100%;";>
+      <div class="card white hoverable" style="padding: 10px; background-image: url('img/bg.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;";>
           <div class="card-content white-text text-center">
             <span><i class="medium material-icons black">album</i></span>
             <p style="color: green" style="padding-top: 10px">INI GAK TAU APA</p>
