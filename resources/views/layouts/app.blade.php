@@ -31,8 +31,8 @@
             <div class="nav-wrapper container"> <!-- tambahin class container gak mepet ke sisi --> 
               <a href="#" class="brand-logo">BASEND</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PROFILE</a></li>
+                <li><a href="{{ route('home') }}">HOME</a></li>
+                <li><a href="{{ route('profile') }}">PROFILE</a></li>
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
               </ul>
             </div>
